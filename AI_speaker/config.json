@@ -1,0 +1,16 @@
+{
+    "model_path": "models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+    "vosk_model_path": "models/vosk-model-small-ru-0.22",
+    "max_tokens": 10000,
+    "system_prompt": "Вы — ИИ-помощник, который отвечает на вопросы пользователя.",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "top_k": 50,
+    "presence_penalty": 0.1,
+    "frequency_penalty": 0.1,
+    "stop_words": ["\n"],
+    "echo": true,
+    "verbose": true,
+    "friendly": true,
+    "accuracy": 0.9
+}
